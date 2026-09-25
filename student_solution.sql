@@ -1,5 +1,6 @@
-ALTER TABLE Student
-add EMAIL VARCHAR (30);
-ALTER TABLE Student
-ADD PHONENO INT (10);
-DESC Student;
+USE StudentDB;
+alter table STUDENT
+add email VARCHAR(30);
+ALTER TABLE STUDENT
+add phoneNO int (10);
+desc Student;

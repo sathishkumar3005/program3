@@ -1,1 +1,5 @@
-
+ALTER TABLE Student
+add EMAIL VARCHAR (30);
+ALTER TABLE Student
+ADD PHONENO INT (10);
+DESC Student;
